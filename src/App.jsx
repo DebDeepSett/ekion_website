@@ -6,7 +6,7 @@ function Navbar() {
   const links = [
     ['Services', '#services'],
     ['About', '#about'],
-    ['Team', '#team'],
+    ['Founders', '#team'],
     ['Contact', '#contact'],
   ]
   return (
@@ -119,8 +119,8 @@ function Team() {
   return (
     <section id="team" className="section">
       <div className="container">
-        <h2 className="section__title">The people behind Ekion</h2>
-        <div className="grid grid--4">
+        <h2 className="section__title">Meet the founders</h2>
+        <div className="grid grid--3">
           {team.map((m) => (
             <article key={m.name} className="member">
               <div className="member__avatar">{m.initials}</div>

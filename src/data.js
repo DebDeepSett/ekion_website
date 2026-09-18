@@ -67,8 +67,7 @@ export const values = [
 ]
 
 export const team = [
-  { name: 'Aria Nakamura', role: 'Chief Executive Officer', initials: 'AN' },
-  { name: 'Marcus Fields', role: 'Head of Optimization', initials: 'MF' },
-  { name: 'Priya Deshmukh', role: 'VP of Engineering', initials: 'PD' },
-  { name: 'Leo Andersson', role: 'Head of Energy Markets', initials: 'LA' },
+  { name: 'Hamza Mamodaly', role: 'Co-Founder', initials: 'HM' },
+  { name: 'Guru Prasad', role: 'Co-Founder', initials: 'GP' },
+  { name: 'Deb Deep Sett', role: 'Co-Founder', initials: 'DS' },
 ]
