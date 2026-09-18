@@ -42,7 +42,7 @@ function Hero() {
   return (
     <section id="top" className="hero">
       <div className="container hero__inner">
-        <p className="hero__eyebrow">EV Charging &amp; Energy Solutions</p>
+        <p className="hero__eyebrow">EV Charging &amp; Energy Optimization</p>
         <h1 className="hero__title">{company.tagline}</h1>
         <p className="hero__lead">{company.intro}</p>
         <div className="hero__cta">
@@ -66,10 +66,10 @@ function Services() {
   return (
     <section id="services" className="section">
       <div className="container">
-        <h2 className="section__title">What we do</h2>
+        <h2 className="section__title">How we optimize your charging</h2>
         <p className="section__sub">
-          From a single driveway to a national fleet, Ekion has the hardware, software, and
-          people to electrify it.
+          We are EV charging experts, and optimization is our edge — matching every session to
+          your consumption patterns, energy prices, and available capacity.
         </p>
         <div className="grid grid--3">
           {services.map((s) => (
@@ -90,14 +90,16 @@ function About() {
     <section id="about" className="section section--alt">
       <div className="container about">
         <div>
-          <h2 className="section__title">Built for the grid of tomorrow</h2>
+          <h2 className="section__title">Optimization is our specialty</h2>
           <p>
-            Founded in 2018, Ekion started with a simple frustration: EV charging was clunky,
-            unreliable, and disconnected from the energy system around it. We set out to fix that.
+            Ekion started with a simple conviction: the hardest part of EV charging is not the
+            hardware — it is deciding when, how fast, and at what cost each vehicle charges. That
+            is the problem we obsess over.
           </p>
           <p>
-            Today our chargers and energy-management platform run across dozens of cities, quietly
-            balancing load, chasing cheap green power, and keeping drivers moving.
+            Our optimization engine reads your consumption profile, live energy prices, and
+            available capacity, then shares load dynamically across every charger — cutting cost
+            and squeezing more charging out of the connection you already have.
           </p>
           <div className="values">
             {values.map((v) => (
